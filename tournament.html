@@ -2,7 +2,7 @@
 <html>
 <head>
 
-	<title>LearnTech Plus | Premium Plus</title>
+	<title>Tournament</title>
 
 	<!-- Start Normalize CSS -->
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -12,6 +12,19 @@
 
 	<!-- Start Global CSS -->
 	<link rel="stylesheet" type="text/css" href="css/global.css">
+
+	<style>
+
+		table,th,td {
+			border: 1px solid black;
+			text-align: center;
+		}
+		th,td {
+			padding: 15px;
+			text-align: center;
+		}
+
+	</style>
 
 </head>
 <body>
@@ -34,53 +47,77 @@
 
 
 
-	<section id="courses">
-
-	<center><h1>Finance</h1> </center>
-
-		<div class="Crypto">
 
 
-			<h2> Winner's of 2021</h2>
+	<center><h1>Tournament Details</h1> </center>
 
-			<ul>
-				<li>Siva Ranjeet S (Jan 2021)</li>
-				<li>Janahiraman A (Mar 2021)</li>
-				<li>Brindha A (May 2021)</li>
-				<li>Madhav S (July 2021)</li>
+	<center><table style="width: 200;">
+		<caption>Tournament Results</caption>
+	<tr>
+		<th> Tournament Name </th>
+		<th> Period </th>
+		<th> Awards </th>
+	</tr>
+	<tr>
+		<th rowspan="2"> New Year Tournament </th>
+		<th rowspan="2"> Jan 2021 </th>
+		<td>Winner: Janahiraman A</td>
+	</tr>
+	<tr>
+		<td>Runner: Siva Ranjeet S</td>
+	</tr>
+	<tr>
+		<th rowspan="2"> Holi Tournament </th>
+		<th rowspan="2"> Mar 2021 </th>
+		<td>Winner: Siva Ranjeet S</td>
+	</tr>
+	<tr>
+		<td>Runner: Bindha A</td>
+	</tr>
+	<tr>
+		<th rowspan="2"> Labour's Day Tournament </th>
+		<th rowspan="2"> May 2021 </th>
+		<td>Winner: Madhav S</td>
+	</tr>
+	<tr>
+		<td>Runner: Bindha A</td>
+	</tr>
+	<tr>
+		<th rowspan="2"> Lion's Club Tournament </th>
+		<th rowspan="2"> May 2021 </th>
+		<td>Winner: Brindha A</td>
+	</tr>
+	<tr>
+		<td>Runner: Siva Ranjeet S</td>
+	</tr>
+</table></center>
 
-			</ul>
 
-			<button>Learn More</button>
+	<section id="terms">
 
-		</div>
+		<center><h1>Terms and Conditions</h1> </center>
 
-		<div class="Loan">
+		<iframe src="demo_iframe.html" name="iframe_a" height="400px" width="100%" title="User Agreement">
+		</iframe>
 
-
-			<h2>Tournament</h2>
-
-			<ol>
-				<li>Teachers day Tournament (Sept 2021)</li>
-				<li>Gandhi Jayanthi Tournament (Oct 2021)</li>
-				<li>X-Mas Tournament (Dec 2021)</li>
-				<li>New Year Tournament (Jan 2022)</li>
-
-			</ol>
-
-			<button>Learn More</button>
-
-		</div>
-
+		<p><a href="https://www.chess.com/legal/user-agreement" target="iframe_a">User Agreement</a></p>
 
 	</section>
+	<center>
+		<canvas id="myCanvas" width="578" height="400"></canvas></center>
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+      var imageObj = new Image();
 
-
-
+      imageObj.onload = function() {
+        context.drawImage(imageObj, 69, 50);
+      };
+      imageObj.src = 'img/thank.jpg';
+    </script>
+	
 
 	<footer>
-
-
 
 		<p id="footer">© Copyright 2021. All Rights Reserved. | Indian's Chess Club</p>
 
