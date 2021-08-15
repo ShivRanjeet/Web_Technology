@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register to Knowledge Studio</title>
+
+	<!-- Start Normalize CSS -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+	<!-- Start Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="css/finance.css">
+
+	<!-- Start Global CSS -->
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+
+  </head>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #ec5b2d;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: center;
+  align-items: center;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+</style>
+<body>
+
+  <header>
+
+
+
+		<nav>
+      <a href="lab1.html">Home</a>
+      <a href="https://www.amazon.com/amazon-books/b?ie=UTF8&node=13270229011">Shopping</a>
+      <a href="https://www.amazon.com/gp/cart/view.html?ref_=nav_cart">Cart</a>
+      <a href="https://www.amazon.com/b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell_9321d964d1ab428b8d83e204c043fc01l">Sell</a>
+      <a href="https://www.amazon.com/ap/signin?_encoding=UTF8&accountStatusPolicy=P1&openid.assoc_handle=usflex&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fcss%2Forder-history%3Fie%3DUTF8%26ref_%3Dnav_orders_first&pageId=webcs-yourorder&showRmrMe=1">Login</a>
+      <a href="login.html">Register</a>
+      <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_customerservice_2bf4fe8c5ec54e6bae2d1c24043f012b">Contact Us</a>
+		</nav>
+
+	</header>
+
+<form action="/action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1><center>Sign Up</center></h1>
+    <p><center>Please fill in this form to create an account.</center></p>
+    <hr>
+     <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter your name" name="name" required>
+    <label for="birthday"><b>Enter your Birthday</b></label><br>
+    <input type="date" id="birthday" name="birthday" required></div><br>
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+ <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    
+    <label>
+      <input type="checkbox" checked="unchecked" name="remember" style="margin-bottom:15px "> Remember me
+    </label><br>
+    
+    <br> <label for="gender"><b>Enter your gender</b></label><br>
+    <br><input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="Female">
+      <label for="female">Female</label><br><br>
+      <label for="hoby"><b>Enter your Intreset</b></label><br><br>
+  <label for="cars">Choose an field :</label>
+  <select id="cars" name="cars">
+    <option value="volvo">Tech</option>
+    <option value="saab">Sports</option>
+    <option value="fiat">education</option>
+    <option value="audi">Business</option>
+    <br><br><label><br></br><br></br><br></br>
+    <br></br><br></br><br></br><input type="checkbox" checked="unchecked" name="remember" style="margin-bottom:15px "> By creating an account you agree to our<a href="#" style="color:dodgerblue">Terms & Privacy</a>
+    </label>
+
+    <div class="clearfix">
+      <br></br><br></br><br></br>
+
+        <center><button type="button" class="signupbtn">Sign Up</button></center></div> <br>
+      <center><button type="submit" class="cancelbtn">Cancel</button></center>
+
+    </div>
+  </div>
+</form>
+
+<footer id="techsupport">
+
+	<center><p id="footer">© Copyright 2021. All Rights Reserved. | Knowledge Studio.</p></center>
+
+	</footer>
+
+</body>
+</html>
