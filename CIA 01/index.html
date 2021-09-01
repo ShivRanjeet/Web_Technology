@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Monuments of India</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link
+      href="https://fonts.googleapis.com/css2?
+      family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"/>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!------------------ Header ------------------>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html">
+              <img src="images/EbookStore-Logo.png" alt="Knowledgestudio-Logo"
+            /></a>
+          </div>
+          <!----------  Nav Bar ------------------>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="ebooks.html">Packages</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="account.html">Account</a></li>
+            </ul>
+          </nav>
+          <a href="cart.html">
+            <i class="material-icons" style="font-size: 28px; margin-left: 10px; margin-top: 15px;">shopping_cart</i>
+          </a>
+          <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>
+              The Travellers<br />
+              To Travel is to Live!
+            </h1>
+            <p>
+              "Traveling is more than the seeing of sights; it is change that goes on,<br />
+              deep and permanent, in the ideas of living."
+            </p>
+            <a href="ebooks.html" class="btn" >Explore Now &#x27F6;</a>
+          </div>
+          <div class="col-2">
+            <img src="images/header-pic.png" alt="Header Pic" />
+          </div>
+        </div>
+      </div>
+    </div><br>
+
+    <!----------------featured categories -------------------->
+    
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="images/Book 1.jpg" style="width:100%">
+        <div class="text">Taj Mahal</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="images/Book 2.jpg" style="width:100%">
+        <div class="text">Meenakshi Amman Temple</div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="images/Book 3.jpg" style="width:100%">
+        <div class="text">Ajanta Caves</div>
+      </div>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
+
+    <!----------------featured Books -------------------->
+    <div class="small-container">
+      <h2 class="title">Featured Trips</h2>
+      <div class="row">
+        <div class="col-4">
+          <a href="book-detail.html">
+            <img src="images/Book 4.jpg" alt="Book 4"
+          /></a>
+          <a href="book-detail.html"> <h4>Kodaikanal Trip</h4></a>
+          <p>4 Days and 3 Nights</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Rs.55,000</p>
+        </div>
+        <div class="col-4">
+          <img src="images/Book 5.jpg" alt="Book 5" />
+          <h4>Kanya Kumari Trip</h4>
+          <p>4 Days and 3 Nights</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Rs.45,000</p>
+        </div>
+        <div class="col-4">
+          <img src="images/Book 6.jpg" alt="Book 6" />
+          <h4>Kovalam Trip</h4>
+          <p>4 Days and 3 Nights</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>Rs.35,000</p>
+        </div>
+      </div>
+      
+      <!----------------Best Seller Books -------------------->
+      <h2 class="title">Best Packages</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/Book 8.jpg" alt="Book 8" />
+          <h4>Manali Trip</h4>
+          <p>5 Days and 4 Nights</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Rs.75,000</p>
+        </div>
+        <div class="col-4">
+          <img src="images/Book 9.jpg" alt="Book 9" />
+          <h4>Goa Trip</h4>
+          <p>5 Days and 4 Nights</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Rs.65,000</p>
+        </div>
+        <div class="col-4">
+          <img src="images/Book 10.jpg" alt="Book 10" />
+          <h4>Hampi Trip</h4>
+          <p>4 Days and 3 Nights</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>Rs.55,000</p>
+        </div>
+        <div class="col-4">
+          <img src="images/Book 11.jpg" alt="Book 11" />
+          <h4>Golden Temple</h4>
+          <p>3 Days and 2 Nights</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>Rs.45,000</p>
+        </div>
+      </div>
+      
+       
+      </div>
+    </div>
+
+    <!------------------offer ------------>
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img src="images/Book 1.jpg" class="offer-img" />
+          </div>
+          <div class="col-2">
+            <p>Available on Monuments of India</p>
+            <br />
+            <h2>The Taj Mahal</h2>
+            <br />
+            <small>
+              <ol>
+                <li>An immense mausoleum of white marble</li>
+                <li>Built in Agra between 1631 and 1648</li>
+                <li>By Mughal emperor Shah Jahan in memory of his favourite wife</li>
+              </ol>  
+            </small><br>
+            <a href="#" class="btn">Visit &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------testimonial-------------------->
+    <div class="testimonial">
+      <div class="small-container">
+        <div div class="row">
+          <div class="col-3">
+            <img src="images/kalam.jpg" alt="kalam" />
+            <br><br>
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Do not follow where the path may lead. 
+              Go instead where there is no path and leave a trail
+            </p>
+            <i class="fa fa-quote-right"></i>
+            <br>
+            <h3>Ralph Waldo Emerson</h3>
+          </div>
+          <div class="col-3">
+            <img src="images/vivekananda.jpg" alt="vivekananda" />
+            <br><br>
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Dare to be free, dare to go as far as your thought leads, 
+              and dare to carry that out in your life.
+            </p>
+            <i class="fa fa-quote-right"></i>
+            <br>
+            <h3>Swami Vivekananda</h3>
+          </div>
+          <div class="col-3">
+            <img src="images/charles.jpg" alt="charles" />
+            <br><br>
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Man cannot discover new oceans unless he has the courage to 
+              lose sight of the shore
+            </p>
+            <i class="fa fa-quote-right"></i>
+            <br>            
+            <h3>Andre Gide</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------publishers------------------- -->
+    <!-- <div class="publishers">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <img src="images/publisher1.png" />
+          </div>
+          <div class="col-5">
+            <img src="images/publisher2.png" />
+          </div>
+          <div class="col-5">
+            <img src="images/publisher3.jpeg" />
+          </div>
+          <div class="col-5">
+            <img src="images/publisher4.jpg" />
+          </div>
+          <div class="col-5">
+            <img src="images/publisher5.jpg" />
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- ---------------------footer------------------- -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and ios mobile phone.</p>
+            <div class="app-logo">
+              <a href="https://play.google.com/store">
+                <img src="images/Playstore.png" />
+              </a>
+              <a href="https://www.apple.com/in/app-store/">
+                <img src="images/Applestore.png" />
+              </a>              
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="images/EbookStore-Logo.png" />
+            <h3>Discover your next favorite Spot.</h3>
+            <p>
+              Take only memories, leave only footprints, collected for you from Monuments of India.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul>
+              <li><a href="https://www.facebook.com/">Facebook</a></li>
+              <li><a href="https://www.youtube.com/">Youtube</a></li>
+              <li><a href="https://www.instagram.com/">Instagram</a></li>
+              <li><a href="https://twitter.com/login">Twitter</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">© Copyright 2021. All Rights Reserved. | Monuments of India.</p>
+      </div>
+    </div>
+    <!-- ---------Javascript for toggle menu------------- -->
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px";
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+    <!----------------- SlideShow ----------------------->
+
+    <script>
+      var slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+      </script>
+
+  </body>
+</html>
