@@ -1,0 +1,116 @@
+<?xml version = "1.0"?>
+<!--book.xml-->
+<?xml-stylesheet type="text/css" href= "product.css"?>
+
+<productshop>
+
+<Customer>
+
+<name>
+<firstname> Siva </firstname>
+<lastname> Ranjeet S </lastname>
+</name>
+
+<address>
+<street> 26, Eastern Street,</street>
+<city> Eraniel. </city>
+<email> sivaranjeet@gmail.com </email>
+<phone> 9442078236 </phone>
+<description> PRODUCT NAME : FACE WASH : CAFFEINE FACE WASH | COFFEE ARABICA AND GREEN TEA </description>
+<description> PRODUCT NAME : NOSE STRIP : DEEP CLEANSING NOSE STRIP | BAMBOO CHARCOAL AND ALOE VERA </description>
+<description> PRODUCT NAME : FACE SERUM : CAFFEINE FACE SERUM FOR MEN | COFFEE ARABICA AND HYALURONIC ACID </description>
+<price> PRICE : Rs 1,062 </price>
+</address>
+
+<product>
+<Cname> 3 Product Purchased.</Cname>
+</product>
+
+</Customer>
+
+<Customer>
+
+<name>
+<firstname> Janahi </firstname>
+<lastname> Raman </lastname>
+</name>
+
+<address>
+<street> 209, Kurinji Nager,</street>
+<city> Putheri. </city>
+<email> vickyram698@gmail.com </email>
+<phone> 8524837746 </phone>
+<description> PRODUCT NAME : FACE SCRUB : CAFFEINE FACE SCRUB FOR MEN | COFFEE ARABICA AND ALOE VERA </description>
+<description> PRODUCT NAME : FACE PACK : CAFFEINE FACE PACK FOR MEN | COFFEE ARABICA AND KAOLIN CLAY </description>
+<description> PRODUCT NAME : LIP SCRUB : LIGHTENING LIP SCRUB | BROWN SUGAR AND ALMOND OIL </description>
+<description> PRODUCT NAME : PEEL OFF : CHARCOAL PEEL OFF MASK | MORINGA AND GOOSEBERRY </description>
+<description> PRODUCT NAME : LIP BALM : LIGHTENING LIP BALM FOR MEN </description>
+<price> PRICE : Rs 1,390 </price>
+</address>
+
+<product>
+<Cname> 5 Product Purchased. </Cname>
+</product>
+
+</Customer>
+
+<Customer>
+
+<name>
+<firstname> Shiva </firstname>
+<lastname> Ganesh </lastname>
+</name>
+
+<address>
+<street> 101, Yamahna Road,</street>
+<city> Hosur. </city>
+<email> shivaganesh598@gmail.com   </email>
+<phone> 9600335665 </phone>
+<description> PRODUCT NAME : INTIMATE WASH : INTIMATE WASH FOR MEN | TEA TREE AND SEA BUCKTHORN </description>
+<description> PRODUCT NAME : SHEET MASK : VITAMIN C SHEET MASK | HYALURONIC ACID AND LEMON </description>
+<description> PRODUCT NAME : ANTI-ACNE : ANTI-ACNE GEL FOR MEN | GEL FOR ACNE TREATMENT </description>
+<description> PRODUCT NAME : BODY WASH : CHARCOAL BODY WASH | LEMONGRASS AND CINNAMON </description>
+<description> PRODUCT NAME : FOOT CREAM : DIY FOOT CARE | FOOT CREAM | THE CLEAN STEP </description>
+<description> PRODUCT NAME : SOAP BAR : CHARCOAL SOAP BAR | ACTIVATED CHARCOAL </description>
+<description> PRODUCT NAME : SUNSCREEN : SUNSCREEN LOTION | 40+ SPF PA+++ </description>
+<price> PRICE : Rs 2,853 </price>
+</address>
+
+<product>
+<Cname> 7 Product Purchased. </Cname>
+</product>
+
+</Customer>
+
+<Customer>
+
+<name>
+<firstname> Madhav </firstname>
+<lastname> Subramanium </lastname>
+</name>
+
+<address>
+<street> 302, Ganapathi Nager, </street>
+<city> Chettikulam. </city>
+<email> madhav589@gmail.com </email>
+<phone> 8903731382 </phone>
+<description> PRODUCT NAME : BEARD SERUM : CAFFEINE BEARD GROWTH SERUM | COFFEE ARABICA AND BIOTIN </description>
+<description> PRODUCT NAME : BEARD OILS : BEARD SOFTENER OIL WITH ARGAN AND GERANIUM </description>
+<description> PRODUCT NAME : BEARD WASH : BEARD WASH SHAMPOO WITH ARGAN AND GERANIUM </description>
+<description> PRODUCT NAME : BEARD OILS : BEARD GROWTH OIL WITH ALMOND AND THYME </description>
+<description> PRODUCT NAME : SHAVE LOTION : POST SHAVE LOTION | JOJOBA AND MINT </description>
+<description> PRODUCT NAME : SHAVE OIL : PRE SHAVE OIL | ARGAN AND JOJOBA OIL </description>
+<description> PRODUCT NAME : AFTER SHAVE : AFTER SHAVE | ALOE VERA AND MINT </description>
+<description> PRODUCT NAME : BEARD CREME : BEARD CREME WITH ARGAN AND MINT </description>
+<description> PRODUCT NAME : BEARD WAXES : BEARD WAX WITH ALMOND AND THYME </description>
+<description> PRODUCT NAME : CLEAR CUT : CLEAR CUT | CLEAR SHAVE GEL </description>
+<price> PRICE : Rs 3,763 </price>
+</address>
+
+<product>
+<Cname> 10 Product Purchased. </Cname>
+</product>
+
+</Customer>
+
+</productshop>

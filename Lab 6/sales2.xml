@@ -1,0 +1,88 @@
+<?xml version = "1.0"?>
+<!--sales2.xml-->
+
+<!DOCTYPE currency SYSTEM "PRODUCT.dtd">
+
+<productshop>
+
+<Customer>
+
+<name>
+<firstname> Siva </firstname>
+<lastname> Ranjeet S </lastname>
+</name>
+
+<address>
+<street> 26, Eastern Street,</street>
+<city> Eraniel. </city>
+<email> sivaranjeet@gmail.com </email>
+<phone> 9442078236 </phone>
+</address>
+
+<product>
+<Cname> 3 Product Purchased.</Cname>
+</product>
+
+</Customer>
+
+<Customer>
+
+<name>
+<firstname> Janahi </firstname>
+<lastname> Raman </lastname>
+</name>
+
+<address>
+<street> 209, Kurinji Nager,</street>
+<city> Putheri. </city>
+<email> vickyram698@gmail.com </email>
+<phone> 8524837746 </phone>
+</address>
+
+<product>
+<Cname> 5 Product Purchased. </Cname>
+</product>
+
+</Customer>
+
+<Customer>
+
+<name>
+<firstname> Shiva </firstname>
+<lastname> Ganesh </lastname>
+</name>
+
+<address>
+<street> 101, Yamahna Road,</street>
+<city> Hosur. </city>
+<email> shivaganesh598@gmail.com   </email>
+<phone> 9600335665 </phone>
+</address>
+
+<product>
+<Cname> 7 Product Purchased. </Cname>
+</product>
+
+</Customer>
+
+<Customer>
+
+<name>
+<firstname> Madhav </firstname>
+<lastname> Subramanium </lastname>
+</name>
+
+<address>
+<street> 302, Ganapathi Nager, </street>
+<city> Chettikulam. </city>
+<email> madhav589@gmail.com </email>
+<phone> 8903731382 </phone>
+</address>
+
+<product>
+<Cname> 10 Product Purchased. </Cname>
+</product>
+
+</Customer>
+
+</productshop>
