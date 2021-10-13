@@ -1,0 +1,88 @@
+<?xml version = "1.0"?>
+<!--list.xml-->
+<?xml-stylesheet type="text/css" href= "list.css"?>
+
+
+<CHRIST>
+
+<CU>
+
+<STU-NAME>
+<firstname> Siva </firstname>
+<lastname> Ranjeet S </lastname>
+</STU-NAME>
+
+<STU-BRANCH>
+<street> 26, Eastern Street,</street>
+<city> Eraniel. </city>
+<email> sivaranjeet@gmail.com </email>
+<phone> 9442078236 </phone>
+</STU-BRANCH>
+
+<STU-COLLEGE>
+<Cname></Cname>
+</STU-COLLEGE>
+
+</CU>
+
+<CU>
+
+<STU-NAME>
+<firstname> Janahi </firstname>
+<lastname> Raman </lastname>
+</STU-NAME>
+
+<STU-BRANCH>
+<street> 209, Kurinji Nager,</street>
+<city> Putheri. </city>
+<email> vickyram698@gmail.com </email>
+<phone> 8524837746 </phone>
+</STU-BRANCH>
+
+<STU-COLLEGE>
+<Cname> </Cname>
+</STU-COLLEGE>
+
+</CU>
+
+<CU>
+
+<name>
+<firstname> Shiva </firstname>
+<lastname> Ganesh </lastname>
+</name>
+
+<STU-BRANCH>
+<street> 101, Yamahna Road,</street>
+<city> Hosur. </city>
+<email> shivaganesh598@gmail.com   </email>
+<phone> 9600335665 </phone>
+</STU-BRANCH>
+
+<STU-COLLEGE>
+<Cname></Cname>
+</STU-COLLEGE>
+
+</CU>
+
+<CU>
+
+<name>
+<firstname> Madhav </firstname>
+<lastname> Subramanium </lastname>
+</name>
+
+<STU-BRANCH>
+<street> 302, Ganapathi Nager, </street>
+<city> Chettikulam. </city>
+<email> madhav589@gmail.com </email>
+<phone> 8903731382 </phone>
+</STU-BRANCH>
+
+<STU-COLLEGE>
+<Cname>  </Cname>
+</STU-COLLEGE>
+
+</CU>
+
+</CHRIST>
