@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<traders>
+<companyname> Man Company</companyname>
+ <trader>
+  <id>101</id>
+  <name> Madhav S</name>
+  <designation> Manager </designation>
+ </trader>
+
+ <trader>
+  <id>102</id>
+  <name> Ramji </name>
+  <designation> Executive Manager </designation>
+ </trader>
+
+ <trader>
+  <id>103</id>
+  <name> Shanu </name>
+  <designation> Asst. Executive Manager </designation>
+ </trader>
+</traders>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clients>
+     <Client ID="1">
+          <Firstname> Siva </Firstname >
+          <Lastname> Ranjeet </Lastname>
+          <Age>30</Age>
+          <tradingAmt> 2000 </tradingAmt>
+     </Client>
+     <Client ID="2">
+          <Firstname> Shiva </Firstname>
+          <Lastname> Ganesh </Lastname>
+          <Age>50</Age>
+          <tradingAmt> 3000 </tradingAmt>
+     </Client>
+     <Client ID="3">
+          <Firstname> Vinitha </Firstname>
+          <Lastname> V </Lastname>
+          <Age>24</Age>
+          <tradingAmt> 4000</tradingAmt>
+     </Client>
+     <Client ID="4">
+          <Firstname> Janahi </Firstname>
+          <Lastname> Raman </Lastname>
+          <Age>30</Age>
+          <tradingAmt> 10000 </tradingAmt>
+     </Client>
+</Clients>

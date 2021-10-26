@@ -1,0 +1,70 @@
+<?xml version = "1.0"?>
+<!--ForexTraders.xml-->
+<?xml-stylesheet type="text/css" href= "currency.css"?>
+
+<Traders>
+<Client>
+<name>
+<firstname> Siva </firstname>
+<lastname> Ranjeet </lastname>
+</name>
+<address>
+<street> 26 - Eastern Street </street>
+<city> Eraniel </city>
+<email> sivaranjeet@gmail.com </email>
+<phone> 9442078236 </phone>
+</address>
+<currency>
+<Cname> Purchased Rs:2000 </Cname>
+</currency>
+</Client>
+
+<Client>
+<name>
+<firstname> Shiva </firstname>
+<lastname> Ganesh </lastname>
+</name>
+<address>
+<street> 202 - Ganga Nager </street>
+<city> Hosur </city>
+<email> ssg0592@gmail.com </email>
+<phone> 9600335665 </phone>
+</address>
+<currency>
+<Cname> Purchased Rs.3000 </Cname>
+</currency>
+</Client>
+
+<Client>
+<name>
+<firstname> Vinitha </firstname>
+<lastname> V </lastname>
+</name>
+<address>
+<street> 101 - Ganapathi Nager </street>
+<city> Kanya kumari </city>
+<email> vini@yahoo.com </email>
+<phone> 8903731382 </phone>
+</address>
+<currency>
+<Cname> Purchased Rs.4000 </Cname>
+</currency>
+</Client>
+
+
+<Client>
+<name>
+<firstname> Janahi </firstname>
+<lastname> Raman </lastname>
+</name>
+<address>
+<street> 21C, Kurinji Nagar </street>
+<city> Putheri</city>
+<email> vickyram698@gmail.com </email>
+<phone> 8903422073 </phone>
+</address>
+<currency>
+<Cname> Purchased Rs 10,000 </Cname>
+</currency>
+</Client>
+</Traders>
